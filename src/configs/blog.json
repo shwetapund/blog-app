@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to javascript",
+        "dscription":"🤔 What is Javascript ?",
+        "content":"Javascript is a dynamic programming language, a scripting language used to develop web applications,and more.It allows us to implement dynamic features on web pages that cannot do with just HTML and CSS. Javscript are supported by all browsers.",
+        "author":"Brendan Eich",
+        "publishDate":"1995"
+    },
+    {
+        "id":2,
+        "title":"Is JavaScript is case sensitive? Explain its example.",
+        "description":"Yes JavaScript is case sensitive.",
+        "content":"JavaScript is a case-sensitive language. This means that language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters. Ex :- 'Computer' and 'computer' are two different words because the 'C' is uppercase in the first example and lowercase in the second example.",
+        "author":"ABC",
+        "publishDate":"2017-12-15"
+    },
+    {
+        "id":3,
+        "title":"How do you add JavaScript in html element?",
+        "description":"If you can add Javascript in html element then simply use <script></script> tag",
+        "contnet":"You can place any number of scripts in an HTML document.Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.Scripts can also be placed in external files: External scripts are practical when the same code is used in many different web pages.JavaScript files have the file extension .js.To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:",
+        "author":"XYZ",
+        "publishDate":"2017-5-12"
+    },
+    {
+        "id":4,
+        "title":"How do you declare a variable in JavaScript?",
+        "discription":"If you can declare a variable in javascript then simply use keywords",
+        "content":"A variable is used to store data. There are three keywords to declare variables: you can declare a variable in javascript using var , let , const keywords. var keyword is used to declare variables since JavaScript was created.",
+        "author":"PQR",
+        "publishDate":"2017-12-12"
+
+    }
+]
