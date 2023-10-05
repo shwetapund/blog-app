@@ -1,0 +1,26 @@
+body{
+
+     background-image: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.946239694.1696291200&semt=ais);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-name{
+    margin-left: 20px;
+    color: white;
+    font-family:sans-serif;
+    font-size: 40px;
+  
+    
+}
+/* .main-title-container{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border: 5px double black;
+
+    background-color: rgb(187, 229, 246);
+    width: 500px;
+    border-radius: 20px;
+    height: 80px;
+} */
