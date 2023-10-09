@@ -1,14 +1,19 @@
 import React from 'react'
 import './PreviewPostCard.css';
 import {Link} from 'react-router-dom'
-function PreviewPostCard({id, title, author, description}) {
-  return (
+
+
+function PreviewPostCard({id, title,image, description}) {
+  return (<>
+
         <div className='previewPostCard'>
-        <h2>{title} </h2>
-        <span>By {author}</span>
+        <img src={image}  className='imgpost'/>
+        <h2 className='title'>{title} </h2>
         <p>{description}</p>
-        <Link to={`/post/read/${id}`}>Read More</Link>
-        </div>
+   
+       
+        <Link to={`/post/read/${id}`} className='read-more'>Read More</Link>
+        </div></>
   )
 }
 
